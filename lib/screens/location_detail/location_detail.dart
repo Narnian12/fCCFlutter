@@ -9,16 +9,16 @@ class LocationDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Title'),
+        title: Text('TOURISM & CO.'),
       ),
       body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("assets/images/kiyomizu-dera.jpg"),
-            TextSection(Colors.red),
-            TextSection(Colors.green),
-            TextSection(Colors.blue),
+            TextSection("summary1", "something1"),
+            TextSection("summary2", "something2"),
+            TextSection("summary3", "something3"),
           ]),
     );
   }
